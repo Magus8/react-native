@@ -11,7 +11,6 @@ const Loading = () => {
 
 };
 
-
 const styles = StyleSheet.create({
     loadingView: {
         alignItems: 'center',
@@ -23,7 +22,6 @@ const styles = StyleSheet.create({
         fontSize: 14,
         fontWeight: 'bold'
     }
-
 });
 
 export default Loading;

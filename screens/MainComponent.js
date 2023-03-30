@@ -17,15 +17,12 @@ import { fetchCampsites } from '../features/campsites/campsitesSlice';
 import { fetchPromotions } from '../features/promotions/promotionsSlice';
 import { fetchComments } from '../features/comments/commentsSlice';
 
-
 const Drawer = createDrawerNavigator();
-
 
 const screenOptions = {
     headerTintColor: '#fff',
     headerStyle: { backgroundColor: '#5637DD' }
 };
-
 
 const HomeNavigator = () => {
     const Stack = createStackNavigator();
@@ -50,7 +47,6 @@ const HomeNavigator = () => {
     );
 };
 
-
 const AboutNavigator = () => {
     const Stack = createStackNavigator();
     return (
@@ -72,7 +68,6 @@ const AboutNavigator = () => {
         </Stack.Navigator>
     );
 };
-
 
 const ContactNavigator = () => {
     const Stack = createStackNavigator();
@@ -97,7 +92,6 @@ const ContactNavigator = () => {
     );
 };
 
-
 const ReservationNavigator = () => {
     const Stack = createStackNavigator();
     return (
@@ -120,7 +114,6 @@ const ReservationNavigator = () => {
         </Stack.Navigator>
     );
 };
-
 
 const DirectoryNavigator = () => {
     const Stack = createStackNavigator();
@@ -155,7 +148,6 @@ const DirectoryNavigator = () => {
     );
 };
 
-
 const CustomDrawerContent = (props) => (        
     <DrawerContentScrollView {...props}>
         <View style={styles.drawerHeader} >
@@ -169,7 +161,6 @@ const CustomDrawerContent = (props) => (
         <DrawerItemList {...props} labelStyle={{ fontWeight: 'bold'}} />
     </DrawerContentScrollView>
 );
-
 
 const Main = () => {
     
@@ -279,7 +270,6 @@ const Main = () => {
         </View>
     );
 };
-
 
 const styles = StyleSheet.create({
     drawerHeader: {

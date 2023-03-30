@@ -1,6 +1,5 @@
-import { ScrollView } from "react-native-gesture-handler";
+import { ScrollView } from "react-native";
 import { Card, Text } from "react-native-elements";
-
 
 const ContactScreen = () => {
     return (
@@ -16,7 +15,6 @@ const ContactScreen = () => {
             </Card>
         </ScrollView>
     )
-
 };
 
 export default ContactScreen;

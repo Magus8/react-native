@@ -38,7 +38,6 @@ const FeaturedItem = (props) => {
     }
 
     return <View />;
-
 };
 
 const HomeScreen = () => {
