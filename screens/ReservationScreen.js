@@ -28,11 +28,9 @@ const ReservationScreen = () => {
     return (
         <ScrollView>
             <View style={styles.formRow}>
-                <Text style={styles.formLabel}>
-                    Number of Campers:
-                </Text>
+                <Text style={styles.formLabel}>Number of Campers:</Text>
                 <Picker
-                    styles={styles.formItem}
+                    style={styles.formItem}
                     selectedValue={campers}
                     onValueChange = {(itemValue) => setCampers(itemValue)}
                 >
