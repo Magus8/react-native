@@ -312,5 +312,5 @@ const styles = StyleSheet.create({
         height: 60
     }
 });
-export default LoginScreen;
 
+export default LoginScreen;
